@@ -1,0 +1,121 @@
+- !<AssetImportMetadata/21038dcc-15cc-4e64-b4d8-8735b94a91ec>
+  ImportedAssetIds:
+    .hidden/Donut: !<reference> 94ad5569-1868-4a76-9c5a-4aee3bac69f5
+    .hidden/white: !<reference> a41b84af-7958-4962-ab56-7f5f66f6c57d
+    66780cf3a4dcb2b8: !<reference> b989a20b-8ee6-497e-a7b7-e3f3029c453a
+    724d0abbbf6f3fa5: !<reference> 72441bd6-5286-4c9e-add1-695052de7e22
+    Materials/Donut: !<reference> 14b2dbb5-c063-413b-ac04-72232617bb0e
+    Materials/Donut|Donut|GraphPassInfo: !<reference> 287e33eb-6e12-405a-802b-bdd582083809
+    Meshes/Donut: !<reference> 1e894f9b-8a5d-445a-a50e-61c14e770d2b
+    Scene: !<reference> a6dd85a1-2d30-4cc3-a59c-528889aa7f03
+    Textures/Donut_Donut_BaseColor: !<reference> 3408dcc9-55d1-4106-8e89-b788ebfeeb4b
+    Textures/Donut_Donut_Normal: !<reference> 8ec40736-71be-4521-9b64-c2f6d5906c24
+    cb5e8a71fd8cb4ae: !<reference> 725233a5-e54a-4c97-9345-ddad41defd91
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> a6dd85a1-2d30-4cc3-a59c-528889aa7f03
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 7d6c6a69-2275-4eb4-b194-aa5337565bca
+  DependentFiles:
+    - Donut_Donut_BaseColor.png
+    - Donut_Donut_Emissive.png
+    - Donut_Donut_Metallic.png
+    - Donut_Donut_Normal.png
+    - Donut_Donut_Roughness.png
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/53ca9a59-f06e-4372-9a75-95d3c124b444>
+  PrefabRemaps:
+    []
+  Name: Donut
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 7.773899, y: 7.773899, z: 7.773899}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c6434a0-bee3-4e10-8649-d7af6fcbc94f
+- !<ObjectPrefabAssetData/7d6c6a69-2275-4eb4-b194-aa5337565bca>
+  SourceRemaps:
+    - 72441bd6-5286-4c9e-add1-695052de7e22: 8c6434a0-bee3-4e10-8649-d7af6fcbc94f
+    - 725233a5-e54a-4c97-9345-ddad41defd91: 53ca9a59-f06e-4372-9a75-95d3c124b444
+    - a6dd85a1-2d30-4cc3-a59c-528889aa7f03: f2f096d7-dcb4-40db-844b-1842c7d18f7c
+    - b989a20b-8ee6-497e-a7b7-e3f3029c453a: cbc827bc-a72f-4c4e-9280-6bc7e95ad5c1
+  SourceState: !<own> f2f096d7-dcb4-40db-844b-1842c7d18f7c
+- !<RenderMeshVisual/8c6434a0-bee3-4e10-8649-d7af6fcbc94f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 14b2dbb5-c063-413b-ac04-72232617bb0e
+  Mesh: !<reference> 1e894f9b-8a5d-445a-a50e-61c14e770d2b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cbc827bc-a72f-4c4e-9280-6bc7e95ad5c1>
+  PrefabRemaps:
+    []
+  Name: Donut
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 53ca9a59-f06e-4372-9a75-95d3c124b444
+  Components:
+    []
+- !<ObjectPrefab/f2f096d7-dcb4-40db-844b-1842c7d18f7c>
+  PackagePath: ""
+  objects:
+    - !<own> cbc827bc-a72f-4c4e-9280-6bc7e95ad5c1
+  LazyLoading: false
+  RetainAssets: true

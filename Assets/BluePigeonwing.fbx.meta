@@ -1,0 +1,119 @@
+- !<AssetImportMetadata/a0e2b418-1fc2-44fa-b4a4-fd1b9bf6a51c>
+  ImportedAssetIds:
+    .hidden/Pigeon: !<reference> d4ca2f98-6794-444c-9ade-6ec1f0d8a7c3
+    .hidden/white: !<reference> b4c3c007-79ad-4268-8521-49e096871c81
+    66780cf3a4dcb2b8: !<reference> 44481e9c-8047-45a8-9ec3-d205458ecc63
+    78ee1eb2dd6ab273: !<reference> 01a2965a-0d09-458b-9cfe-7db548fdf79b
+    Materials/Pigeon: !<reference> f44768bd-8dd1-4861-be7f-54a8ed07895a
+    Materials/Pigeon|Pigeon|GraphPassInfo: !<reference> 4867b721-05cf-403c-a985-c81c1e189c13
+    Meshes/FOOT.001: !<reference> 6f3c114f-3b41-4fb2-b0a0-0fbde707aae8
+    Scene: !<reference> a252ee29-c5b1-4549-ab4b-60a32bb16541
+    Textures/PigeonAvatarto texture_Pigeon_BaseColor: !<reference> f921b3b2-7f2e-43e9-a908-c045bc976e33
+    c63905bf408655e3: !<reference> 245295c4-dd3f-4e14-9e85-22d79cebda4f
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> a252ee29-c5b1-4549-ab4b-60a32bb16541
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 9882dd83-e3cb-42a7-b849-c25c81bad152
+  DependentFiles:
+    - PigeonAvatarto texture_Pigeon_BaseColor.png
+    - PigeonAvatarto texture_Pigeon_Emissive.png
+    - PigeonAvatarto texture_Pigeon_Metallic.png
+    - PigeonAvatarto texture_Pigeon_Roughness.png
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/9882dd83-e3cb-42a7-b849-c25c81bad152>
+  SourceRemaps:
+    - 01a2965a-0d09-458b-9cfe-7db548fdf79b: cdaf73d7-d149-48e7-8ed2-2c5208f6bc0a
+    - 245295c4-dd3f-4e14-9e85-22d79cebda4f: fb65950d-0384-4948-a3b3-347e2553bbe2
+    - 44481e9c-8047-45a8-9ec3-d205458ecc63: 99aa2b91-4d73-4710-be14-30889cb9e0c1
+    - a252ee29-c5b1-4549-ab4b-60a32bb16541: bd7bee31-ed86-438f-b7d8-682998bd1e67
+  SourceState: !<own> bd7bee31-ed86-438f-b7d8-682998bd1e67
+- !<SceneObject/99aa2b91-4d73-4710-be14-30889cb9e0c1>
+  PrefabRemaps:
+    []
+  Name: BluePigeonwing
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cdaf73d7-d149-48e7-8ed2-2c5208f6bc0a
+  Components:
+    []
+- !<ObjectPrefab/bd7bee31-ed86-438f-b7d8-682998bd1e67>
+  PackagePath: ""
+  objects:
+    - !<own> 99aa2b91-4d73-4710-be14-30889cb9e0c1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/cdaf73d7-d149-48e7-8ed2-2c5208f6bc0a>
+  PrefabRemaps:
+    []
+  Name: FOOT.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 4.535129, y: 17.872501, z: 2.476178}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.569632, y: 0.569632, z: 3.498619}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fb65950d-0384-4948-a3b3-347e2553bbe2
+- !<RenderMeshVisual/fb65950d-0384-4948-a3b3-347e2553bbe2>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f44768bd-8dd1-4861-be7f-54a8ed07895a
+  Mesh: !<reference> 6f3c114f-3b41-4fb2-b0a0-0fbde707aae8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

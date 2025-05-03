@@ -37,7 +37,7 @@ export class Food extends BaseScriptComponent {
     }
     update() {
         var mouthAngle = this.rightHand.indexKnuckle.position.angleTo(this.rightHand.indexTip.position)
-        print("indexKnuckle: " + this.rightHand.indexKnuckle.position.y + " indexTip: " + this.rightHand.indexTip.position.y);
+        // print("indexKnuckle: " + this.rightHand.indexKnuckle.position.y + " indexTip: " + this.rightHand.indexTip.position.y);
     }
 
 }

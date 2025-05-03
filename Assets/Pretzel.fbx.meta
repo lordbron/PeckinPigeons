@@ -1,0 +1,121 @@
+- !<AssetImportMetadata/501d88df-b030-4fe1-93bb-657403468663>
+  ImportedAssetIds:
+    .hidden/Pretzel: !<reference> 1d08425f-2e1a-4403-8136-14d87385caca
+    .hidden/white: !<reference> fe64c42d-2c21-4f22-a363-fad0df4fca6a
+    31d40115c85a7629: !<reference> c0dcb8a8-8772-4488-9f80-cfd4ebee4c31
+    66780cf3a4dcb2b8: !<reference> 87ee5b12-fb2a-4ca2-baa4-0552e2834a67
+    Materials/Pretzel: !<reference> 98a0914b-5814-43d0-8ec1-413bee5f3f28
+    Materials/Pretzel|Pretzel|GraphPassInfo: !<reference> fa20e6c8-f52b-42c3-8382-cfec57f6b6dc
+    Meshes/Pretzel: !<reference> 78e3f4aa-1c61-42db-824a-ad3fc667900b
+    Scene: !<reference> 803b9961-2680-4079-aa0b-586dc1c91cda
+    Textures/Pretzel_Pretzel_BaseColor: !<reference> 0fefc10b-d0ee-4260-a766-68f887163f30
+    Textures/Pretzel_Pretzel_Normal: !<reference> 0a96b2b3-6044-466e-bd72-5af2eeafa6e7
+    e75a119c0df548e3: !<reference> f2cd93f0-3359-4f58-a18f-9a4fd2a3680d
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 803b9961-2680-4079-aa0b-586dc1c91cda
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 1090884c-2a00-49be-9046-c5ac1b558fb6
+  DependentFiles:
+    - Pretzel_Pretzel_BaseColor.png
+    - Pretzel_Pretzel_Emissive.png
+    - Pretzel_Pretzel_Metallic.png
+    - Pretzel_Pretzel_Normal.png
+    - Pretzel_Pretzel_Roughness.png
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/08ec7a07-fdcb-457b-9b47-4b325490de62>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 98a0914b-5814-43d0-8ec1-413bee5f3f28
+  Mesh: !<reference> 78e3f4aa-1c61-42db-824a-ad3fc667900b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/1090884c-2a00-49be-9046-c5ac1b558fb6>
+  SourceRemaps:
+    - 803b9961-2680-4079-aa0b-586dc1c91cda: 7d0de72a-bcf2-42aa-8212-32975a8fd903
+    - 87ee5b12-fb2a-4ca2-baa4-0552e2834a67: 3b0e7ae5-b4e9-4c32-a004-f4c47221a420
+    - c0dcb8a8-8772-4488-9f80-cfd4ebee4c31: 42291696-a799-4386-af27-1b013d76c729
+    - f2cd93f0-3359-4f58-a18f-9a4fd2a3680d: 08ec7a07-fdcb-457b-9b47-4b325490de62
+  SourceState: !<own> 7d0de72a-bcf2-42aa-8212-32975a8fd903
+- !<SceneObject/3b0e7ae5-b4e9-4c32-a004-f4c47221a420>
+  PrefabRemaps:
+    []
+  Name: Pretzel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 42291696-a799-4386-af27-1b013d76c729
+  Components:
+    []
+- !<SceneObject/42291696-a799-4386-af27-1b013d76c729>
+  PrefabRemaps:
+    []
+  Name: Pretzel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -113.113358, y: 4.249232, z: 76.105522}
+    scale: {x: 0.283338, y: 0.283338, z: 0.283338}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 08ec7a07-fdcb-457b-9b47-4b325490de62
+- !<ObjectPrefab/7d0de72a-bcf2-42aa-8212-32975a8fd903>
+  PackagePath: ""
+  objects:
+    - !<own> 3b0e7ae5-b4e9-4c32-a004-f4c47221a420
+  LazyLoading: false
+  RetainAssets: true

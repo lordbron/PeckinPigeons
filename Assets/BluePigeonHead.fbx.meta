@@ -1,0 +1,119 @@
+- !<AssetImportMetadata/55e514a0-174a-4490-ac97-eb22dfee37c9>
+  ImportedAssetIds:
+    .hidden/Pigeon: !<reference> 4f40d49d-7bcb-4b31-afa4-b0bf209f268c
+    .hidden/white: !<reference> 92188fae-85f2-4966-bf08-6beb99de9476
+    250fbb05fe7e36f1: !<reference> 83a003d5-90e8-45c7-a292-330e32e23b98
+    66780cf3a4dcb2b8: !<reference> fddff005-5267-4990-aa7b-3ffc7090f9a7
+    84f809c9f2d1eeb4: !<reference> 9e0f7d76-338c-44dd-a574-dd9806346b3c
+    Materials/Pigeon: !<reference> de85f51b-ff61-4e22-b283-c6140ccd24eb
+    Materials/Pigeon|Pigeon|GraphPassInfo: !<reference> 4f6aa973-02a1-4885-b49c-96164efca19e
+    Meshes/FOOT: !<reference> 5708c6d8-7e4c-4dc7-b0ca-e39fdc7297d1
+    Scene: !<reference> 9fab3fd5-437d-4303-a144-d8879b840d0c
+    Textures/PigeonAvatarto texture_Pigeon_BaseColor: !<reference> b5178bfe-3ef0-49d6-b5c9-d82c84fd780e
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 9fab3fd5-437d-4303-a144-d8879b840d0c
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 88df9cb9-3a54-4696-94cd-f9d2fb2b00f2
+  DependentFiles:
+    - PigeonAvatarto texture_Pigeon_BaseColor.png
+    - PigeonAvatarto texture_Pigeon_Emissive.png
+    - PigeonAvatarto texture_Pigeon_Metallic.png
+    - PigeonAvatarto texture_Pigeon_Roughness.png
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/45739158-ff20-4066-95f8-88d219642f29>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de85f51b-ff61-4e22-b283-c6140ccd24eb
+  Mesh: !<reference> 5708c6d8-7e4c-4dc7-b0ca-e39fdc7297d1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/88df9cb9-3a54-4696-94cd-f9d2fb2b00f2>
+  SourceRemaps:
+    - 83a003d5-90e8-45c7-a292-330e32e23b98: 45739158-ff20-4066-95f8-88d219642f29
+    - 9e0f7d76-338c-44dd-a574-dd9806346b3c: 96335d35-8f80-47b2-96c9-a822ba25cdac
+    - 9fab3fd5-437d-4303-a144-d8879b840d0c: e1577e79-508e-4ccc-8438-5c3c2c89d7a8
+    - fddff005-5267-4990-aa7b-3ffc7090f9a7: 9ba2cdd3-4368-4c56-a029-d983f8952ec8
+  SourceState: !<own> e1577e79-508e-4ccc-8438-5c3c2c89d7a8
+- !<SceneObject/96335d35-8f80-47b2-96c9-a822ba25cdac>
+  PrefabRemaps:
+    []
+  Name: FOOT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.066165, y: 23.801922, z: 8.476442}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.569632, y: 0.569632, z: 3.498619}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45739158-ff20-4066-95f8-88d219642f29
+- !<SceneObject/9ba2cdd3-4368-4c56-a029-d983f8952ec8>
+  PrefabRemaps:
+    []
+  Name: BluePigeonHead
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 96335d35-8f80-47b2-96c9-a822ba25cdac
+  Components:
+    []
+- !<ObjectPrefab/e1577e79-508e-4ccc-8438-5c3c2c89d7a8>
+  PackagePath: ""
+  objects:
+    - !<own> 9ba2cdd3-4368-4c56-a029-d983f8952ec8
+  LazyLoading: false
+  RetainAssets: true
