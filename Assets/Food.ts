@@ -22,12 +22,8 @@ export class Food extends BaseScriptComponent {
                     "Text Interactable requires an Interactable Component on the same Scene object in order to work - please ensure one is added.",
                 )
             }
-            this.interactable.onTriggerEnd.add(() => {
-                if (this.enabled) {
-                    if (!this.rhIsEating()) {
-                        this.body.dynamic = true;
-                    }
-                }
+            this.interactable.onTriggerStart.add(() => {
+                this.body.getTransform().setLocalScale(new vec3(0.0, 0.0, 0.0));
             })
     
         })
@@ -40,8 +36,8 @@ export class Food extends BaseScriptComponent {
 
     }
     update() {
-        var mouthAngle = this.rightHand.wrist.position.angleTo(this.rightHand.indexTip.position)
-        print("palm pitch: " + mouthAngle);
+        var mouthAngle = this.rightHand.indexKnuckle.position.angleTo(this.rightHand.indexTip.position)
+        print("indexKnuckle: " + this.rightHand.indexKnuckle.position.y + " indexTip: " + this.rightHand.indexTip.position.y);
     }
 
 }
